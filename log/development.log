@@ -1,0 +1,49 @@
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2010-09-28 22:17:19) [GET]
+  Session ID: 185a6c54b59b7631eb290a5590f8f809
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: schema_info: SELECT version FROM schema_info[0m
+Completed in 0.11100 (9 reqs/sec) | Rendering: 0.00200 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2010-09-28 22:42:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1662322f2dbe97135bb7be6d4dc4431b584cbd12
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: schema_info: SELECT version FROM schema_info[0m
+Completed in 0.04200 (23 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2010-09-28 22:43:55) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1662322f2dbe97135bb7be6d4dc4431b584cbd12
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: schema_info: SELECT version FROM schema_info[0m
+Completed in 0.03900 (25 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2010-09-28 22:47:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1662322f2dbe97135bb7be6d4dc4431b584cbd12
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: schema_info: SELECT version FROM schema_info[0m
+Completed in 0.05500 (18 reqs/sec) | Rendering: 0.00100 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2010-09-28 22:49:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1662322f2dbe97135bb7be6d4dc4431b584cbd12
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: schema_info: SELECT version FROM schema_info[0m
+Completed in 0.10000 (9 reqs/sec) | Rendering: 0.00200 (2%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2010-09-28 22:49:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1662322f2dbe97135bb7be6d4dc4431b584cbd12
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: schema_info: SELECT version FROM schema_info[0m
+Completed in 0.03900 (25 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2010-09-28 22:59:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1662322f2dbe97135bb7be6d4dc4431b584cbd12
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: schema_info: SELECT version FROM schema_info[0m
+Completed in 0.09800 (10 reqs/sec) | Rendering: 0.00100 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]

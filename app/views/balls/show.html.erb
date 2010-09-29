@@ -1,0 +1,18 @@
+<p>
+  <b>Latitude:</b>
+  <%=h @ball.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @ball.longitude %>
+</p>
+
+<p>
+  <b>Altitude:</b>
+  <%=h @ball.altitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_ball_path(@ball) %> |
+<%= link_to 'Back', balls_path %>

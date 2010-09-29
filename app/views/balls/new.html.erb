@@ -1,0 +1,26 @@
+<h1>New ball</h1>
+
+<%= error_messages_for :ball %>
+
+<% form_for(@ball) do |f| %>
+  <p>
+    <b>Latitude</b><br />
+    <%= f.text_field :latitude %>
+  </p>
+
+  <p>
+    <b>Longitude</b><br />
+    <%= f.text_field :longitude %>
+  </p>
+
+  <p>
+    <b>Altitude</b><br />
+    <%= f.text_field :altitude %>
+  </p>
+
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', balls_path %>

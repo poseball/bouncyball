@@ -47,3 +47,17 @@ Processing InfoController#properties (for 127.0.0.1 at 2010-09-28 22:59:26) [GET
   Parameters: {"action"=>"properties", "controller"=>"rails/info"}
   [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: schema_info: SELECT version FROM schema_info[0m
 Completed in 0.09800 (10 reqs/sec) | Rendering: 0.00100 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (0.001000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.073000)[0m   [0mCREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.084000)[0m   [0;1mINSERT INTO schema_info (version) VALUES(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to CreateBalls (1)
+  [4;35;1mSQL (0.062000)[0m   [0mCREATE TABLE balls ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "latitude" integer DEFAULT NULL, "longitude" integer DEFAULT NULL, "altitude" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mUPDATE schema_info SET version = 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(balls)[0m
